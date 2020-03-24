@@ -19,8 +19,9 @@ const App = () => {
         <Switch>
           <Route path='/'>
             <MovieList />
+            <Link to='/movies/:movieID'>Movie</Link>
           </Route>
-          <Route path='/movies/:movieID'>
+          <Route path='/movies/'>
             <Movie />
           </Route>
         </Switch>
